@@ -30,25 +30,25 @@ The objective of this project is to:
 
 Dataset Information:
 
-Features Used       Feature Description
+Features Used : Feature Description
 
-CustomerID	        Unique customer identifier
+CustomerID : Unique customer identifier
 
-Age	                Customer age
+Age : Customer age
 
-SubscriptionType    Basic, Premium, or Enterprise
+SubscriptionType : Basic,Premium,Enterprise
 
-MonthlyCharges	    Monthly subscription fee
+MonthlyCharges : monthly subscription fee
 
-TenureMonths	      Number of months as a customer
+TenureMonth : Number of months as a customer
 
-SupportTickets	    Number of support requests raised
+SupportTickets : Number of support requests raised
 
-SatisfactionScore   Customer satisfaction rating (1–10)
+SatisfactionScore : Customer satisfaction rating (1–10)
 
-UsageHoursPerWeek   Weekly service usage
+UsageHoursPerWeek : Weekly service usage
 
-Churn	              Target variable (Yes/No)
+Churn: Target variable (Yes/No)
 
 
 Dataset Generation Process:
