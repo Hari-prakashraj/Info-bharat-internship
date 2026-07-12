@@ -51,21 +51,22 @@ UsageHoursPerWeek : Weekly service usage
 Churn: Target variable (Yes/No)
 
 
+
 Dataset Generation Process:
 
-A synthetic dataset containing 3000 customer records was generated using NumPy and Pandas.
+	A synthetic dataset containing 3000 customer records was generated using NumPy and Pandas.
 
-Realistic churn behavior was created using the following logic:
+	Realistic churn behavior was created using the following logic:
 
-	•Low satisfaction increases churn probability.
+		•Low satisfaction increases churn probability.
 
-	•Low weekly usage increases churn probability.
+		•Low weekly usage increases churn probability.
 
-	•High support ticket count increases churn probability.
+		•High support ticket count increases churn probability.
 
-	•Short customer tenure increases churn probability.
+		•Short customer tenure increases churn probability.
 
-	•Basic subscription customers have a slightly higher churn tendency.
+		•Basic subscription customers have a slightly higher churn tendency.
 
 The dataset was exported as a CSV file for further analysis.
 
